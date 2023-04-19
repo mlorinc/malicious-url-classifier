@@ -1,0 +1,26 @@
+{
+    "cnn-bi-lstm-64-dense": {
+        "batch_size": 128,
+        "max_features": 128,
+        "split": "character",
+        "standardize": "lower_and_strip_punctuation",
+        "max_length": 200,
+        "model": ".cnn_bi_lstm_64_dense",
+        "stringify": true,
+        "output_path": "./combined_models/cnn_bi_lstm_64_dense",
+        "epoch": 20,
+        "patience": 5
+    },
+    "cnn-lstm-128-dense": {
+        "batch_size": 128,
+        "max_features": 128,
+        "split": "character",
+        "standardize": "lower_and_strip_punctuation",
+        "max_length": 200,
+        "model": ".cnn_lstm_128_dense",
+        "stringify": true,
+        "output_path": "./combined_models/cnn_lstm_128_dense",
+        "epoch": 20,
+        "patience": 5
+    }
+}

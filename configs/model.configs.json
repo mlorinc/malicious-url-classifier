@@ -1,0 +1,122 @@
+{
+    "cnn-gru-128": {
+        "batch_size": 128,
+        "max_features": 128,
+        "split": "character",
+        "standardize": "lower_and_strip_punctuation",
+        "max_length": 200,
+        "model": ".cnn_gru",
+        "stringify": true,
+        "output_path": "./models/cnn-gru-128",
+        "epoch": 20,
+        "patience": 5
+    },
+    "cnn-2gru": {
+        "batch_size": 128,
+        "max_features": 128,
+        "split": "character",
+        "standardize": "lower_and_strip_punctuation",
+        "max_length": 200,
+        "model": ".cnn_2gru",
+        "stringify": true,
+        "output_path": "./models/cnn-2gru",
+        "epoch": 20,
+        "patience": 5
+    },
+    "cnn-2gru-128": {
+        "batch_size": 128,
+        "max_features": 128,
+        "split": "character",
+        "standardize": "lower_and_strip_punctuation",
+        "max_length": 200,
+        "model": ".cnn_2gru_128",
+        "stringify": true,
+        "output_path": "./models/cnn-2gru-128",
+        "epoch": 20,
+        "patience": 5
+    },
+    "cnn": {
+        "batch_size": 128,
+        "max_features": 95,
+        "split": "character",
+        "standardize": "lower_and_strip_punctuation",
+        "max_length": 200,
+        "model": ".cnn",
+        "stringify": true,
+        "output_path": "./models/cnn",
+        "epoch": 20,
+        "patience": 5
+    },
+    "cgru-95": {
+        "batch_size": 128,
+        "max_features": 95,
+        "split": "character",
+        "standardize": "lower_and_strip_punctuation",
+        "max_length": 200,
+        "model": ".cgru",
+        "stringify": true,
+        "output_path": "./models/cgru-95",
+        "epoch": 20,
+        "patience": 5
+    },
+    "cnn-lstm-128": {
+        "batch_size": 128,
+        "max_features": 128,
+        "split": "character",
+        "standardize": "lower_and_strip_punctuation",
+        "max_length": 200,
+        "model": ".cnn_lstm",
+        "stringify": true,
+        "output_path": "./models/cnn-lstm-128",
+        "epoch": 20,
+        "patience": 5
+    },
+    "cnn-bilstm-128": {
+        "batch_size": 128,
+        "max_features": 128,
+        "split": "character",
+        "standardize": "lower_and_strip_punctuation",
+        "max_length": 200,
+        "model": ".cnn_bilstm",
+        "stringify": true,
+        "output_path": "./models/cnn-bilstm-128",
+        "epoch": 20,
+        "patience": 5
+    },
+    "cgru-128": {
+        "batch_size": 128,
+        "max_features": 128,
+        "split": "character",
+        "standardize": "lower_and_strip_punctuation",
+        "max_length": 200,
+        "model": ".cgru",
+        "stringify": true,
+        "output_path": "./models/cgru-128",
+        "epoch": 20,
+        "patience": 5
+    },
+    "clstm-128": {
+        "batch_size": 128,
+        "max_features": 128,
+        "split": "character",
+        "standardize": "lower_and_strip_punctuation",
+        "max_length": 200,
+        "model": ".clstm",
+        "stringify": true,
+        "output_path": "./models/clstm-128",
+        "epoch": 20,
+        "patience": 5
+    },
+    "cbilstm-128": {
+        "batch_size": 128,
+        "max_features": 128,
+        "split": "character",
+        "standardize": "lower_and_strip_punctuation",
+        "max_length": 200,
+        "model": ".cbilstm",
+        "stringify": true,
+        "output_path": "./models/cbilstm-128",
+        "epoch": 20,
+        "patience": 5
+    }
+}

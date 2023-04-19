@@ -1,0 +1,15 @@
+# top-most EditorConfig file
+root = true
+
+# Python files
+[*.py]
+
+# set the indentation style to spaces with a width of 4 spaces
+indent_style = space
+indent_size = 4
+
+# use double quotes for strings
+quote_type = double
+
+# ensure a newline at the end of each file
+insert_final_newline = true

@@ -1,0 +1,8 @@
+data
+__pycache__
+venv
+malicious_*
+.DS_store
+/*models*
+/figures*
+gallery/**/*.pdf
